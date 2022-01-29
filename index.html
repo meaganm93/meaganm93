@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+  <header>
+    <title>CSS Cheat Sheet</title>
+    <link href="/Users/meagan/Desktop/Projects/CSS CheatSheet/stylesheet.css" rel="stylesheet">
+  </header>
+  
+  <body>
+    <h1>CSS Table Reference</h1>
+    <p>by Meagan McDougall</p>
+    <h2>Commonly Used CSS Tags</h2>
+    
+    <table class='tags'>
+        <thead>
+            <tr>
+                <th>Tag</th>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><span class="code">&lt;color&gt;</span></td> 
+                <td><span class='name'>Font Color</span></td>
+                <td><span class='Description'>Sets the font color</td>
+            </tr>
+            <tr>
+                <td><span class="code">&lt;background-color&gt;</span></td> 
+                <td><span class='name'>Background Color</span></td>
+                <td><span class='Description'>Sets the color of the space behind the element</td>
+            </tr>
+            <tr>
+                <td><span class="code">&lt;font-family&gt;</span></td> 
+                <td><span class='name'>Font Type</span></td>
+                <td><span class='Description'>Sets the font type that will be visible</td>
+            </tr>
+            <tr>
+                <td><span class="code">&lt;text-align&gt;</span></td> 
+                <td><span class='name'>Aligns Text</span></td>
+                <td><span class='Description'>Aligns given text to either right, left, center, or justify</td>
+            </tr>
+            <tr>
+                <td><span class="code">&lt;font-weight&gt;</span></td> 
+                <td><span class='name'>Weight of Font</span></td>
+                <td><span class='Description'>Sets the weight of the font between normal, bold, or thin</td>
+            </tr>
+            <tr>
+                <td><span class="code">&lt;border-top&gt;</span></td> 
+                <td><span class='name'>Borders</span></td>
+                <td><span class='Description'>Creates a border along the top of the given element</td>
+            </tr>
+            <tr>
+                <td><span class="code">&lt;padding&gt;</span></td> 
+                <td><span class='name'>Padding around elements</span></td>
+                <td><span class='Description'>Creates space between the contents of the 'box' and its borders. </td>
+            </tr>
+            <tr>
+                <td><span class="code">&lt;margin&gt;</span></td> 
+                <td><span class='name'>Space around elements in relation to others on the page</span></td>
+                <td><span class='Description'>Creates space between the paragraph/element and all other elements outside. Same shorthand as with padding. </td>
+            </tr>
+            <tr>
+                <td><span class="code">&lt;min/max width/height&gt;</span></td> 
+                <td><span class='name'>Min/Max Width/Height</span></td>
+                <td><span class='Description'>Ensures a minimum width/height around an element</td>
+            </tr>
+            <tr>
+                <td><span class="code">&lt;overflow&gt;</span></td> 
+                <td><span class='name'>Element Overflow Limit</span></td>
+                <td><span class='Description'>Controls what happens to elements that overflows outside its box</td>
+            </tr>
+            <tr>
+                <td><span class="code">&lt;visibility&gt;</span></td> 
+                <td><span class='name'>Determines visibility of elements</span></td>
+                <td><span class='Description'>Can be set to 'hidden', 'visible', 'none', or 'collapse'.</td>
+            </tr>
+            <tr>
+                <td><span class="code">&lt;position&gt;</span></td> 
+                <td><span class='name'>Position</span></td>
+                <td><span class='Description'>Can change the position of an element using one of the five: static, relative, absolute, fixed, sticky. </td>
+            </tr>
+            <tr>
+                <td><span class="code">&lt;z-index&gt;</span></td> 
+                <td><span class='name'>Z-Index</span></td>
+                <td><span class='Description'>Controls how far back or forward an element should appear on the webpage when elements overlap. like the depth of an element. </td>
+            </tr>
+            <tr>
+                <td><span class="code">&lt;float&gt;</span></td> 
+                <td><span class='name'>Floating</span></td>
+                <td><span class='Description'>Moves content all the way to either the right or left of the webpage. Width must be specified. Works for static or relative elements. </td>
+            </tr>
+            <tr>
+                <td><span class="code">&lt;clear&gt;</span></td> 
+                <td><span class='name'>Clear</span></td>
+                <td><span class='Description'>Controls how elements should behave when they bump into each other on the page. </td>
+            </tr>
+            <tr>
+                <td><span class="code">&lt;top&gt;</span></td> 
+                <td><span class='name'>Offsets Element</span></td>
+                <td><span class='Description'>Offsets elements by the designated number of pixels. In this case, along the top margin. </td>
+            </tr>
+        </tbody>
+       
+    </table>
+
+    <h2> Notes </h2>
+        <table class='Notes'>
+            <thead>
+                <tr>
+                    <th>Tag</th>
+                    <th>Notes</th>
+                </tr>
+            </thead>
+            <tr>
+                <td><span class='code'>&lt;margin&gt;</span></td> 
+                <td><span class='extra'>MUST have a width set in order to apply. set the px for vertical spacing and then 'auto' to center within that space horizontally.Horizontal margins between two boxes are added together. Vertical margins are not added together, rather the larger of the two is applied and sets the distance between the two elements.</span></td>
+            </tr>
+            <tr>
+                <td><span class='code'>&lt;padding&gt;</span></td>
+                <td><span class='extra'>Can be specified based on the side you want to add space (left, right, top, bottom) or by adding the values going clockwise (starting with top). 3 values means left and right are equal. 2 values means the top/bottom are equal and the left/right are equal.</span>
+            </tr>
+            <tr>
+                <td><span class='code'>&lt;padding&gt;</span></td>
+                <td><span id='extra'>Can be specified based on the side you want to add space (left, right, top, bottom) or by adding the values going clockwise (starting with top). 3 values means left and right are equal. 2 values means the top/bottom are equal and the left/right are equal.</span>
+            </tr>
+            <tr>
+                <td><span class='code'>&lt;overflow&gt;</span></td>
+                <td><span class='extra'>Commonly used values: 'hidden', 'scroll', 'visible'. Property is set on a parent element to instruct how to handle child elements. Must have a set height or width.</span>
+            </tr>
+            <tr>
+                <td><span class='code'>&lt;visibility&gt;</span></td>
+                <td><span class='extra'>'Hidden' value only hides the contents of the box, there will still be a space for it on the page. 'None' removes the box and elements from the page entirely.</span>
+            </tr>
+            <tr>
+                <td><span class='code'>&lt;Box-Sizing&gt;</span></td>
+                <td><span class='extra'>Setting it to 'border-box' keeps the height and width of the box fixed. Thickness and padding will fit inside the box so overall dimensions don't change.</span>
+            </tr>
+            <tr>
+                <td><span class='code'>&lt;position&gt;</span></td>
+                <td><span class='extra'>'static'=default. Any value should be accompanied with the offset property to move it away from the default position (top, bottom, left, right) specified in pixels, em, or %. 
+                    Relative: position an element relative to its default position
+                    Absolute: all other elements on the page will ignore the element/act like it's not present. can be pinned to any part of the web page, but the element will still move with the rest of the document when the page is scrolled.
+                    Fixed: set an element to a specific point on page regardless of user scrolling.
+                    Sticky: keeps element in the document flow as the user scrolls, but sticks it to a specific position as the page scrolls further.
+                </span>
+            </tr>
+            <tr>
+                <td><span class='code'>&lt;Z-Index&gt;</span></td>
+                <td><span class='extra'>Uses integers. The higher the number, the further forward it will appear. Will not work with static elements. Ignored by 'static' elements.</span>
+            </tr>
+            <tr>
+                <td><span class='code'>&lt;Clear&gt;</span></td>
+                <td><span class='extra'>'left': the left side of the element will not touch any other element within the same containing element. 'right': the right side of the element will not touch any other element within the same containing element. 'both': neither side of the element will touch any other element within the same containing element. 'none': the element can touch either side.</span>
+            </tr>
+        </table>
+
+  </body>
+</html>
