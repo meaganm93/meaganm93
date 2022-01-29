@@ -1,136 +1,107 @@
-body {
-  background: #f5d9c7;
-  color: #5C351F;
-  padding: 25px;
-  font-family: sans-serif;
-
+*{
+font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Quicksand', sans-serif;
 }
 
-p {
-  background: #f5d9c7;
-  color: #5C351F;
-  font-size: 16px;
-  font-family: 'Quicksand', sans-serif;
-  text-align: center;
-}
-
-header {
-  border-color: #5C351F;
-  border-width: 1px;
-  background-image: url(/Users/meagan/Desktop/Projects/Dasmoto/resources/images/pattern.jpeg);
-}
-
-nav li{
-  display: inline;
-  padding-right: 2rem;
-  text-align: center;
+body{
+    margin: 10px;
 }
 
 h1{
-  color: #f5d9c7;
-  font-family:'Quicksand', sans-serif;
+    font-family: 'Nanum Gothic';
+    font-size: 40px;
+    font-weight: 400;
+}
+
+h2{
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-size: 30px;
+}
+
+h3{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.title{
+    text-align: center
+}
+
+.container{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 25px;
+}
+
+.color-hippie, .color-careys, .color-dawn, .color-swiss{
+    padding: 3px;
+    margin: 2px auto;
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+}
+
+.color-hippie{
+    background-color: #B04B59;
+}
+
+.color-careys{
+    background-color: #D8A6AD;
+}
+
+.color-dawn{
+    background-color:#F6EBEC;
+}
+
+.color-swiss{
+    background-color:#D7D2CE;
+}
+
+.font-panel{
+    margin: 2px;
+}
+
+.Nanum-Gothic{
+    font-family: 'Nanum Gothic';
+}
+
+.IBM-Plex{
+    font-family: 'IBM Plex Sans Thai Looped';
+}
+
+.Quicksand{
+    font-family: 'Quicksand';
+}
+
+.font-label{
+    text-decoration: underline;
+}
+
+.light{
+    font-weight:300;
+    margin: 3px;
+}
+
+.regular{
+    font-weight:400;
+    margin: 3px;
+}
+
+.bold{
+    font-weight: 700;
+    margin: 3px;
+}
+
+.box-styles{
+  font-family: 'Quicksand';
+  color: #F6EBEC;
   text-align: center;
-  font-size:100px;
-  padding: 10px;
-}
-
-h2 {
-  color: #B04B59;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-align: center;
-  font-size: 18px;
-  width: 500px;
-  margin: 0 auto;
-}
-
-.soapimg{
-  border-radius: 50%;
-  margin-left: 550px;
-  margin-bottom: 30px;
-}
-
-.mepic{ 
-  border-radius: 50%;
-  margin-left: 550px;
-  margin-top: 15px;
-  z-index: 1;
-  position: relative;
-  right: 480px;
-}
-
-#name{
-  text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 18px;
-  position: relative; 
-  bottom: 20px;
   background-color: #B04B59;
-  color: #5C351F;
-  letter-spacing: 1;
-}
-
-.biopic{
-  background-color: #B04B59;
-  width: 400px;
-  margin: 2px auto;
-  position: relative;
-}
-
-.navlink{
-  text-align: center;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 22px;
-  color: #FFFFFF;
-  padding-bottom: 7px;
-}
-.goals{
-  color: #eeddd3;
-  text-align: center;
-  background-color: #A86239;
   padding: 5px;
   border: #5C351F 1px solid;
   line-height: 1.4em;
-  max-width: 250px;
-  border-radius: 10px;
+  max-width: 500px;
+  border-radius: 7px;
   margin: 0 auto;
 }
-
-.degrees{
-  color: #eeddd3;
-  font-size: 16px;
-  font-family: 'Quicksand', sans-serif;
-  background: #A86239;
-  text-align: left;
-  line-height: 1.4em;
-  padding: 3px;
 }
-
-.degreeinfo{
-  text-align: left;
-  font-size: 16px;
-  color: #5C351F;
-  font-style:bold;
-  font-family: 'Quicksand', sans-serif;
-}
-
-.links{
-  list-style: square;
-}
-
-.aboutme{
-  background-color: rgba(255,203,164,.6);
-  text-align: center;
-  padding: 10px;
-  border: #5C351F solid 1px;
-  border-radius: 5px;
-}
-
-footer{
-  text-align:center;
-  font-size:10px;
-  padding:3px;
-  background-color:#5C351F;
-  color: white;
-  opacity: .75;
-}
-
