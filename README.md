@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @meaganm93
-- 👀 I’m interested in Front-End Web Development and Soap Making.
+- 👀 I’m interested in Front-End Web Development.
 - 🌱 I’m currently learning HTML, CSS, and JavaScript
 - 💞️ I’m looking to collaborate on front-end web dev and design projects
 - 📫 You can reach me at mem3cc@gmail.com
